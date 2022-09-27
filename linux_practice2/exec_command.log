@@ -1,0 +1,76 @@
+    1  cd /root
+    2  mkdir server_lesson && cd server_lesson
+    3   
+    4   git version
+    5  yum update -y && yum -y install git
+    6  git version
+    7  git init
+    8  touch first.txt
+    9  ls
+   10  ls
+   11  cd /home
+   12  ls
+   13  vi README.md
+   14  vi README.md
+   15  ls /
+   16  ls /usr
+   17  pwd
+   18  cd /root
+   19  pwd
+   20  cd /home
+   21  ls
+   22  ls /
+   23  cd /home
+   24  ls
+   25  ls /
+   26  pwd
+   27  ls /home
+   28  mkdir test1
+   29  ls
+   30  cd -p test2/test3
+   31  mkdir -p test2/test3
+   32  ls
+   33  ls test2
+   34  touch test1/index.php
+   35  ls test1
+   36  cd /home/test1 && ls
+   37  cp index.php copy.php
+   38  ls
+   39  cp -r test1 test4
+   40  cd /home
+   41  cp -r test1 test4
+   42  ls
+   43  ls test4
+   44  mv test2/test3 test3
+   45  mv test4 test1_copy
+   46  ls
+   47  rm test1_copy/*.php
+   48  ls test1_copy
+   49  rm test1_copy/*.php
+   50  ls test1_copy
+   51  echo '# Hello World' > README.md
+   52   cat README.md
+   53  echo '# Server Lesson' > README.md
+   54   cat README.md
+   55  echo 'Linux Practice' >> README.md
+   56  echo '-----------------' >> README.md
+   57  cat README.md
+   58  vi
+   59  cd root
+   60  kls
+   61  ls
+   62  cd  server_lesson
+   63  ls
+   64  cd linux_practice2
+   65  ls
+   66  ls -la
+   67  rm .gitignore.swp
+   68  ls -la
+   69  pwd
+   70  vi .gitignore
+   71  cat .gitignore
+   72  ls -la
+   73  history 300
+   74  history
+   75  history 300
+   76  history >> exec_command.log
